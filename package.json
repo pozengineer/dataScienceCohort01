@@ -1,0 +1,20 @@
+{
+  "name": "datasciencecohort01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.py",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "python index.py",
+    "test_all": "python -m unittest discover -s tests -p \"test_*.py\" -v",
+    "test_single": "python -m unittest tests.test_webscrape.WebscrapeTestCase.test_fetch_page_error",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhani Pozniak",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.1"
+  }
+}
