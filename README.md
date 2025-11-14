@@ -1,12 +1,17 @@
 # dataScienceCohort01
 Git Commands
+
+### clones the repository into your local vscode
 git clone https://github.com/pozengineer/dataScienceCohort01.git
-<!-- clones the repository into your local vscode -->
+
+### retrieves status of any changes to the repo files
 git status
-<!-- retrieves status of any changes to the repo files -->
+
+### add files ready for commit
 git add .
-<!-- add files ready for commit -->
-git commit -m""
-<!-- commits changes with message for repoitory -->
+
+### commits changes with message for repoitory
+git commit -m"< commit msg >"
+
+### pushes changes to thwew github repository
 git push
-<!-- pushes changes to thwew github repository -->
